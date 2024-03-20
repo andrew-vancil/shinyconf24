@@ -1,0 +1,17 @@
+---
+title: "Using Shiny to Combat Urban Food and Data Inequity"
+author: "Andrew Vancil"
+format: revealjs
+editor: visual
+---
+
+## Food and Data Inequity
+
+## Community Data Explorer of Cincinnati
+
+## System to Achieve Food Equity
+
+## Shiny Implementation
+
+## Lessons Learned and Next Steps
+
