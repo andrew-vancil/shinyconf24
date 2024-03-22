@@ -1,0 +1,50 @@
+---
+title: "Using Shiny to Combat Urban Food and Data Inequity"
+author: "Andrew Vancil"
+format: revealjs
+editor: visual
+---
+
+## Food Availability in Cincinnati
+
+-   In Cincinnati, over 270,000 households are experiencing food insecurity.
+-   Exacerbated by the Covid-19 pandemic
+
+## Community Data Explorer for Cincinnati
+
+-   CoDEC is a data repository composed of equitable, community-level data for Cincinnati
+-   Motivated by a desire to make community-level data more FAIR
+-   This data can be described, curated, and checked against CoDEC specifications using the {codec} R package
+
+## CoDEC Overview
+
+![](codec_overview-cropped.svg){fig-align="center" width="400" height="600"}
+
+## System to Achieve Food Equity
+
+::: columns
+::: {.column width="50%"}
+The System to Achieve Food Equity (SAFE) is a network of individuals and organizations that are committed to improving food security in Cincinnati to ensure that all 66,000 children have the food that they need to grow, develop, learn, and thrive
+:::
+
+::: {.column width="50%"}
+![](SAFE_logo.png)
+:::
+
+:::
+
+# Shiny Implementation
+
+## [CoDEC Data Explorer](https://geomarker.io/codec/codec_shiny)
+
+- Built in Shiny, extensively using {bslib}, {leaflet} and {ggiraph}
+- Public users can visualize different relationships across the various CoDEC data items
+- Broad interactivity between the map and plot panel
+
+## [SAFE Dashboard](https://grapph.shinyapps.io/safe)
+
+- Built primarily using {bs4Dash}, {leaflet} and {ggiraph}
+- Monthly data updates
+- Changes and feature additions pulled from community user suggestions
+
+## Successes and Next Steps
