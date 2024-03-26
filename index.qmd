@@ -1,0 +1,73 @@
+---
+title: "Using Shiny to Combat Urban Food and Data Inequity"
+author: "Andrew Vancil </br> Cincinnati Childrens' Hospital Medical Center"
+subtitle: "ShinyConf 2024"
+format:  
+  revealjs:
+    theme: mytheme.scss
+    logo: cchmc-logo.png
+editor: visual
+---
+
+# Background and Motivation
+
+## Data Inequity
+
+-   The White House’s Equitable Data Working Group has defined equitable data as “those that allow for rigorous assessment of the extent to which government programs and policies yield consistently fair, just, and impartial treatment of all individuals.”
+-   It is important to democratize public data for public use
+
+## Food Inequity
+
+-   In Cincinnati, over 270,000 households are experiencing food insecurity
+-   The problem is deep and wide, and its impact broad, with negative effects on developmental, behavioral, academic, and emotional outcomes among children
+
+## Community Data Explorer for Cincinnati {background-image="codec_logo.svg" background-size="20%" background-position="top right"}
+
+-   CoDEC is a data repository composed of equitable, community-level data for Cincinnati
+-   Motivated by a desire to make community-level data more FAIR
+-   This data can be described, curated, and checked against CoDEC specifications using the {codec} R package
+
+[**https://geomarker.io/codec/**](https://geomarker.io/codec/)
+
+## CoDEC Overview
+
+![](codec_overview_shot.png){fig-align="center"}
+
+## System to Achieve Food Equity
+
+::: columns
+::: {.column width="50%"}
+The System to Achieve Food Equity (SAFE) is a network of individuals and organizations that are committed to improving food security in Cincinnati to ensure that all 66,000 children have the food that they need to grow, develop, learn, and thrive
+:::
+
+::: {.column width="50%"}
+![](SAFE_logo.png)
+:::
+:::
+
+# Shiny Implementation
+
+## [CoDEC Data Explorer](https://grapph.shinyapps.io/codec_shiny)
+
+-   Built in Shiny, extensively using {bslib}, {leaflet} and {ggiraph}, we developed a data explorer so that public users can visualize different relationships across the various CoDEC data items
+
+## [SAFE Dashboard](https://grapph.shinyapps.io/safe)
+
+-   The SAFE stakeholders needed a public-facing dashboard to track meal coverage in Cincinnati neighborhoods
+-   Built primarily using {bs4Dash}, {leaflet} and {ggiraph}
+-   Monthly data updates that are manual for now, but moving toward automation
+
+## Successes and Next Steps
+
+::: incremental
+-   Built on the {codec} package, the CoDEC data explorer is a self-updating data tool that allows users to visualize a wide swath of public data
+-   The SAFE dashboard provides previously non-existent data aggregation, standardization and visualization
+-   All SAFE dashboard updates and feature additions are pulled from community stakeholders
+-   Migrating both apps to Posit Connect with plans to build an automated data pipeline for the SAFE dashboard
+:::
+
+## Thank you!
+
+-   Dr. Cole Brokamp and the rest of our group at Cincinnati Childrens'
+-   The SAFE team throughout Cincinnati, especially Charles Hoffman at 84.51 who developed the meal gap equation and data pipeline
+-   Appsilon for putting on the awesome ShinyConf and letting me share our story
