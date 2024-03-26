@@ -1,0 +1,16 @@
+/*-- scss:defaults --*/
+
+// colors
+$body-bg: #E9EEF7 !default;
+$body-color: #9E4679 !default;
+$link-color: #02AAC8 !default;
+$selection-bg: #76BC44 !default;
+
+// headings
+$presentation-heading-color: #55575A !default;
+
+/*-- scss:rules --*/
+
+.reveal a {
+  line-height: 1.3em;
+}
