@@ -75,4 +75,4 @@ The System to Achieve Food Equity (SAFE) is a network of individuals and organiz
 -   Dr. Cole Brokamp and the rest of our group at Cincinnati Children's
 -   The SAFE team throughout Cincinnati, especially Charles Hoffman at 84.51 who developed the meal gap equation and data pipeline
 -   Appsilon for putting on the awesome ShinyConf and letting me share our story
-- [https://github.com/andrew-vancil/shinyconf24](https://github.com/andrew-vancil/shinyconf24)
+- [https://andrew-vancil.github.io/shinyconf24/](https://andrew-vancil.github.io/shinyconf24/)
