@@ -15,7 +15,7 @@ editor: visual
 
 ## Data and Food Inequity
 
--   To address data inequtiy, it is important to democratize and make accessible public data for public use
+-   To address data inequity, it is important to democratize and make accessible public data for public use
 -   In Cincinnati, over 270,000 households are food insecure
 -   The problem is deep and wide, with many negative outcomes among children
 
